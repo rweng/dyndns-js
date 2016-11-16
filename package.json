@@ -1,0 +1,14 @@
+{
+  "name": "dyndns",
+  "author": "Robin Wenglewski <robin@wenglewski.de>",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.7.2",
+    "nice-route53": "^1.0.3",
+    "superagent": "^2.3.0"
+  }
+}
